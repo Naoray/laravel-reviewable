@@ -5,6 +5,8 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/naoray/laravel-reviewable.svg?style=flat-square)](https://packagist.org/packages/naoray/laravel-rateable)
 [![StyleCI](https://styleci.io/repos/121157590/shield?branch=master)](https://styleci.io/repos/121157590)
 
+This package adds a reviewable feature to your app.
+
 ## Install
 `composer require naoray/laravel-rateable`
 
