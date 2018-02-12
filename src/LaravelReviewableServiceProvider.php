@@ -17,9 +17,9 @@ class LaravelReviewableServiceProvider extends ServiceProvider
             __DIR__.'../config/reviewable.php' => config_path('reviewable.php'),
         ]);
 
-        if (! class_exists('CreateReviewsTable')) {
+        if (!class_exists('CreateReviewsTable')) {
             $timestamp = date('Y_m_d_His', time());
-            
+
             $this->publishes([
                 __DIR__.'/../database/migrations/create_reviews_table.php.stub' => $this->app->databasePath()."/migrations/{$timestamp}_create_reviews_table.php",
             ], 'migrations');
