@@ -3,11 +3,11 @@
 namespace Naoray\LaravelReviewable\Test;
 
 use Illuminate\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
-use Naoray\LaravelReviewable\Traits\HasReviews;
-use Illuminate\Foundation\Auth\Access\Authorizable;
-use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
+use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\Access\Authorizable;
+use Naoray\LaravelReviewable\Traits\HasReviews;
 
 class User extends Model implements AuthorizableContract, AuthenticatableContract
 {
@@ -21,7 +21,7 @@ class User extends Model implements AuthorizableContract, AuthenticatableContrac
     protected $fillable = ['email'];
 
     /**
-     * @var boolean
+     * @var bool
      */
     public $timestamps = false;
 
