@@ -1,8 +1,8 @@
 # laravel-rateable
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/naoray/laravel-rateable.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/naoray/laravel-rateable.svg?style=flat-square)](https://packagist.org/packages/naoray/laravel-rateable)
+[![Travis](https://img.shields.io/travis/naoray/laravel-reviewable.svg?style=flat-square)]()
+[![Total Downloads](https://img.shields.io/packagist/dt/naoray/laravel-reviewable.svg?style=flat-square)](https://packagist.org/packages/naoray/laravel-rateable)
 [![StyleCI](https://styleci.io/repos/121157590/shield?branch=master)](https://styleci.io/repos/121157590)
 
 ## Install
