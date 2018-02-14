@@ -1,4 +1,4 @@
-# laravel-rateable
+# laravel-reviewable
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Travis](https://travis-ci.org/Naoray/laravel-reviewable.svg?branch=master&style=flat-square)]()
