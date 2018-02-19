@@ -8,7 +8,7 @@
 This package adds a reviewable feature to your app.
 
 ## Install
-`composer require naoray/laravel-rateable`
+`composer require naoray/laravel-reviewable`
 
 *publish config:* `php artisan vendor:publish --provider=Naoray\LaravelReviewable\LaravelReviewableServiceProvider`
 
