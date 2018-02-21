@@ -8,7 +8,11 @@
 This package adds a reviewable feature to your app.
 
 ## Install
+#### Laravel Version 5.6+
 `composer require naoray/laravel-reviewable`
+
+#### Laravel Version 5.5
+`composer require naoray/laravel-reviewable:1.0.*`
 
 *publish config:* `php artisan vendor:publish --provider=Naoray\LaravelReviewable\LaravelReviewableServiceProvider`
 
