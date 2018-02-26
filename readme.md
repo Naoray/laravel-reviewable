@@ -19,7 +19,7 @@ use Naoray\LaravelReviewable\Traits\HasReviews;
 
 class Post extends Model
 {
-    use HasReview;
+    use HasReviews;
 
     // ...
 }
