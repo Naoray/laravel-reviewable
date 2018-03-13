@@ -2,8 +2,8 @@
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Travis](https://travis-ci.org/Naoray/laravel-reviewable.svg?branch=master&style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/naoray/laravel-reviewable.svg?style=flat-square)](https://packagist.org/packages/naoray/laravel-reviewable)
 [![StyleCI](https://styleci.io/repos/121157590/shield?branch=master)](https://styleci.io/repos/121157590)
+[![Total Downloads](https://img.shields.io/packagist/dt/naoray/laravel-reviewable.svg?style=flat-square)](https://packagist.org/packages/naoray/laravel-reviewable)
 
 This package adds a reviewable feature to your app.
 
