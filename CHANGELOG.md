@@ -1,5 +1,54 @@
 # Change Log
 
+## [v1.0.4](https://github.com/naoray/laravel-reviewable/tree/v1.0.4) (2018-03-13)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.5...v1.0.4)
+
+**Merged pull requests:**
+
+- Bind Review Contract to Model [\#12](https://github.com/Naoray/laravel-reviewable/pull/12) ([Naoray](https://github.com/Naoray))
+
+## [v1.0.5](https://github.com/naoray/laravel-reviewable/tree/v1.0.5) (2018-03-13)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.1.2...v1.0.5)
+
+## [v1.1.2](https://github.com/naoray/laravel-reviewable/tree/v1.1.2) (2018-03-13)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.1.1...v1.1.2)
+
+**Merged pull requests:**
+
+- Apply fixes from StyleCI [\#11](https://github.com/Naoray/laravel-reviewable/pull/11) ([Naoray](https://github.com/Naoray))
+- Apply fixes from StyleCI [\#10](https://github.com/Naoray/laravel-reviewable/pull/10) ([Naoray](https://github.com/Naoray))
+- Apply fixes from StyleCI [\#9](https://github.com/Naoray/laravel-reviewable/pull/9) ([Naoray](https://github.com/Naoray))
+- fix typo in readme [\#8](https://github.com/Naoray/laravel-reviewable/pull/8) ([Naoray](https://github.com/Naoray))
+- fix config publish typo [\#7](https://github.com/Naoray/laravel-reviewable/pull/7) ([Naoray](https://github.com/Naoray))
+
+## [v1.1.1](https://github.com/naoray/laravel-reviewable/tree/v1.1.1) (2018-02-26)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.3...v1.1.1)
+
+## [v1.0.3](https://github.com/naoray/laravel-reviewable/tree/v1.0.3) (2018-02-26)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.2...v1.0.3)
+
+**Merged pull requests:**
+
+- update readme [\#6](https://github.com/Naoray/laravel-reviewable/pull/6) ([Naoray](https://github.com/Naoray))
+
+## [v1.0.2](https://github.com/naoray/laravel-reviewable/tree/v1.0.2) (2018-02-21)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.1...v1.0.2)
+
+## [v1.1](https://github.com/naoray/laravel-reviewable/tree/v1.1) (2018-02-20)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.1...v1.1)
+
+**Closed issues:**
+
+- unsinged should be unsigned [\#2](https://github.com/Naoray/laravel-reviewable/issues/2)
+
+**Merged pull requests:**
+
+- \[1.0\] fixes typo in migration [\#5](https://github.com/Naoray/laravel-reviewable/pull/5) ([Naoray](https://github.com/Naoray))
+- fix typo in migration - resolves \#2 [\#4](https://github.com/Naoray/laravel-reviewable/pull/4) ([Naoray](https://github.com/Naoray))
+
+## [v1.0.1](https://github.com/naoray/laravel-reviewable/tree/v1.0.1) (2018-02-14)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0...v1.0.1)
+
 ## [v1.0](https://github.com/naoray/laravel-reviewable/tree/v1.0) (2018-02-12)
 **Merged pull requests:**
 
