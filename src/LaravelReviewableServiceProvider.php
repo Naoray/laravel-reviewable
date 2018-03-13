@@ -26,7 +26,7 @@ class LaravelReviewableServiceProvider extends ServiceProvider
                 __DIR__."/../database/migrations/{$migrationName}.stub" => $this->app->databasePath()."/migrations/{$timestamp}_{$migrationName}",
             ], 'migrations');
         }
-        
+
         $this->registerModelBindings();
     }
 
