@@ -14,7 +14,7 @@ This package adds a reviewable feature to your app.
 #### Laravel Version 5.5
 `composer require naoray/laravel-reviewable:1.0.*`
 
-*publish config:* `php artisan vendor:publish --provider=Naoray\LaravelReviewable\LaravelReviewableServiceProvider`
+*publish config:* `php artisan vendor:publish --provider="Naoray\LaravelReviewable\LaravelReviewableServiceProvider"`
 
 ## Usage
 First, add the `Naoray\LaravelReviewable\Traits\HasReviews` trait to your model you want to add reviews to.
