@@ -50,6 +50,11 @@ Post::first()->score;
 Post::first()->avg_score;
 ```
 
+### Using your own Review-Model
+If you just want to change the global configuration to use your own Review-Model, just create a new Model and reference it in the `reviewable.models.review` config.
+
+If you do not want to change the global `review` Model you can take a look at [this issue](https://github.com/Naoray/laravel-reviewable/issues/16) for an example configuration.
+
 ## Testing
 Run the tests with:
 
