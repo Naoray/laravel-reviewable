@@ -3,6 +3,7 @@
 namespace Naoray\LaravelReviewable;
 
 use Illuminate\Support\ServiceProvider;
+use Naoray\LaravelReviewable\Contracts\Review as ReviewContract;
 
 class LaravelReviewableServiceProvider extends ServiceProvider
 {
@@ -19,11 +20,14 @@ class LaravelReviewableServiceProvider extends ServiceProvider
 
         if (!class_exists('CreateReviewsTable')) {
             $timestamp = date('Y_m_d_His', time());
+            $migrationName = 'create_reviews_table.php';
 
             $this->publishes([
-                __DIR__.'/../database/migrations/create_reviews_table.php.stub' => $this->app->databasePath()."/migrations/{$timestamp}_create_reviews_table.php",
+                __DIR__."/../database/migrations/{$migrationName}.stub" => $this->app->databasePath()."/migrations/{$timestamp}_{$migrationName}",
             ], 'migrations');
         }
+
+        $this->registerModelBindings();
     }
 
     /**
@@ -36,5 +40,15 @@ class LaravelReviewableServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(
             __DIR__.'/../config/reviewable.php', 'reviewable'
         );
+    }
+
+    /**
+     * Register Model bindings.
+     */
+    protected function registerModelBindings()
+    {
+        $config = $this->app->config['reviewable.models'];
+
+        $this->app->bind(ReviewContract::class, $config['review']);
     }
 }
