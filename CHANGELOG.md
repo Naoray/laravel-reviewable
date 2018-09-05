@@ -1,5 +1,21 @@
 # Change Log
 
+## [v1.2.0](https://github.com/naoray/laravel-reviewable/tree/v1.2.0) (2018-09-05)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.4...v1.2.0)
+
+**Closed issues:**
+
+- \[How to\] Use a different custom Review model for each reviewable [\#16](https://github.com/Naoray/laravel-reviewable/issues/16)
+- Incorrect syntax for vendor:publish in readme [\#14](https://github.com/Naoray/laravel-reviewable/issues/14)
+
+**Merged pull requests:**
+
+- Version 1.2.0 [\#19](https://github.com/Naoray/laravel-reviewable/pull/19) ([Naoray](https://github.com/Naoray))
+- Apply fixes from StyleCI [\#18](https://github.com/Naoray/laravel-reviewable/pull/18) ([Naoray](https://github.com/Naoray))
+- Dev [\#17](https://github.com/Naoray/laravel-reviewable/pull/17) ([Naoray](https://github.com/Naoray))
+- add missing double quotes to publish command - resolves \#14 [\#15](https://github.com/Naoray/laravel-reviewable/pull/15) ([Naoray](https://github.com/Naoray))
+- Update Readme & Changelog [\#13](https://github.com/Naoray/laravel-reviewable/pull/13) ([Naoray](https://github.com/Naoray))
+
 ## [v1.0.4](https://github.com/naoray/laravel-reviewable/tree/v1.0.4) (2018-03-13)
 [Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.5...v1.0.4)
 
