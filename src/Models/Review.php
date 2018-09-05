@@ -3,8 +3,8 @@
 namespace Naoray\LaravelReviewable\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Naoray\LaravelReviewable\Contracts\Review as ReviewContract;
 use Naoray\LaravelReviewable\ReviewFactory;
+use Naoray\LaravelReviewable\Contracts\Review as ReviewContract;
 
 class Review extends Model implements ReviewContract
 {
