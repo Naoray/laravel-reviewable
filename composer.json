@@ -28,7 +28,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Naoray\\LaravelReviewable\\Test\\": "tests"
+            "Naoray\\LaravelReviewable\\Tests\\": "tests"
         }
     },
     "scripts": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\LaravelReviewable\Test;
+namespace Naoray\LaravelReviewable\Tests;
 
 use Illuminate\Database\Schema\Blueprint;
 use Orchestra\Testbench\TestCase as Orchestra;
@@ -29,9 +29,9 @@ class TestCase extends Orchestra
     {
         $app['config']->set('database.default', 'sqlite');
         $app['config']->set('database.connections.sqlite', [
-            'driver'   => 'sqlite',
+            'driver' => 'sqlite',
             'database' => ':memory:',
-            'prefix'   => '',
+            'prefix' => '',
         ]);
 
         $app['config']->set('reviewable.models.author', User::class);
@@ -51,7 +51,7 @@ class TestCase extends Orchestra
             $table->softDeletes();
         });
 
-        include_once __DIR__.'/../database/migrations/create_reviews_table.php.stub';
+        include_once __DIR__ . '/../database/migrations/create_reviews_table.php.stub';
         (new \CreateReviewsTable())->up();
 
         User::create(['email' => 'test@user.com']);
