@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\LaravelReviewable\Test;
+namespace Naoray\LaravelReviewable\Tests;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;

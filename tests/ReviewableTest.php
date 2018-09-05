@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\LaravelReviewable\Test;
+namespace Naoray\LaravelReviewable\Tests;
 
 use Naoray\LaravelReviewable\Models\Review;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\LaravelReviewable\Test;
+namespace Naoray\LaravelReviewable\Tests;
 
 use Illuminate\Database\Schema\Blueprint;
 use Orchestra\Testbench\TestCase as Orchestra;

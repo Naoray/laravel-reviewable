@@ -15,7 +15,10 @@
         }
     ],
     "require": {
-        "illuminate/support": "5.6.*"
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.7"
     },
     "autoload": {
         "psr-4": {
@@ -25,7 +28,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Naoray\\LaravelReviewable\\Test\\": "tests"
+            "Naoray\\LaravelReviewable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -37,8 +40,5 @@
                 "Naoray\\LaravelReviewable\\LaravelReviewableServiceProvider"
             ]
         }
-    },
-    "require-dev": {
-        "orchestra/testbench": "^3.6"
     }
 }
