@@ -1,5 +1,25 @@
 # Change Log
 
+## [v1.2.1](https://github.com/naoray/laravel-reviewable/tree/v1.2.1) (2019-06-10)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.1.3...v1.2.1)
+
+**Implemented enhancements:**
+
+- Update for Laravel 5.8 usage [\#21](https://github.com/Naoray/laravel-reviewable/issues/21)
+
+**Merged pull requests:**
+
+- Update for laravel 5.8 usage [\#25](https://github.com/Naoray/laravel-reviewable/pull/25) ([Naoray](https://github.com/Naoray))
+- Apply fixes from StyleCI [\#24](https://github.com/Naoray/laravel-reviewable/pull/24) ([Naoray](https://github.com/Naoray))
+- Apply fixes from StyleCI [\#23](https://github.com/Naoray/laravel-reviewable/pull/23) ([Naoray](https://github.com/Naoray))
+- bump license [\#20](https://github.com/Naoray/laravel-reviewable/pull/20) ([Naoray](https://github.com/Naoray))
+
+## [v1.1.3](https://github.com/naoray/laravel-reviewable/tree/v1.1.3) (2019-01-04)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.6...v1.1.3)
+
+## [v1.0.6](https://github.com/naoray/laravel-reviewable/tree/v1.0.6) (2019-01-04)
+[Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.2.0...v1.0.6)
+
 ## [v1.2.0](https://github.com/naoray/laravel-reviewable/tree/v1.2.0) (2018-09-05)
 [Full Changelog](https://github.com/naoray/laravel-reviewable/compare/v1.0.4...v1.2.0)
 
