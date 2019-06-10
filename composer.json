@@ -1,44 +1,46 @@
 {
-    "name": "naoray/laravel-reviewable",
-    "description": "Adds a reviewable feature to your app.",
-    "type": "package",
-    "license": "MIT",
-    "keywords": [
-        "laravel",
-        "reviews",
-        "rate"
-    ],
-    "authors": [
-        {
-            "name": "Krishan Koenig",
-            "email": "krishan.koenig@googlemail.com"
-        }
-    ],
-    "require": {
-        "illuminate/support": "5.8.*"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^3.7"
-    },
-    "autoload": {
-        "psr-4": {
-            "Naoray\\LaravelReviewable\\": "./src"
-        },
-        "files": ["src/helpers.php"]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Naoray\\LaravelReviewable\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Naoray\\LaravelReviewable\\LaravelReviewableServiceProvider"
-            ]
-        }
+  "name": "naoray/laravel-reviewable",
+  "description": "Adds a reviewable feature to your app.",
+  "type": "package",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "reviews",
+    "rate"
+  ],
+  "authors": [
+    {
+      "name": "Krishan Koenig",
+      "email": "krishan.koenig@googlemail.com"
     }
+  ],
+  "require": {
+    "illuminate/support": "~5.7.0|~5.8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Naoray\\LaravelReviewable\\": "./src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Naoray\\LaravelReviewable\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Naoray\\LaravelReviewable\\LaravelReviewableServiceProvider"
+      ]
+    }
+  }
 }
