@@ -6,7 +6,7 @@ use Naoray\LaravelReviewable\Models\Review;
 
 class ReviewableTest extends TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
